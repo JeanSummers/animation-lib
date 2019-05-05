@@ -1,0 +1,19 @@
+{
+    "extends": [
+        "tslint:recommended", 
+        "tslint-config-prettier"
+    ],
+    "rules" : {
+        "variable-name": [
+            true, 
+            "ban-keywords",
+            "check-format",
+            "allow-leading-underscore"
+        ],
+        "max-classes-per-file": false
+    },
+    "exclude": [
+      "lib/**/*",
+      "node_modules/**/*"
+    ]
+}

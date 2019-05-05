@@ -1,0 +1,31 @@
+{
+  "name": "animation-lib",
+  "version": "1.0.0",
+  "author": "JeanSummers",
+  "license": "ISC",
+  "description": "Simple handmade animation framework, supporting multiple shapes",
+  "keywords": [
+    "animation",
+    "html",
+    "canvas"
+  ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/JeanSummers/animation-lib.git"
+  },  
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "test": "echo No test yet",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0",
+    "tslint": "^5.16.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.4.5"
+  },
+  "files": ["lib/**/*"]
+}
